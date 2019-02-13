@@ -1,0 +1,255 @@
+/*Page Width and Center Page*/
+body {
+    margin: auto;
+    width: 1500px;
+}
+/*Adjust "Kids stuff for all kids" <h2> text*/
+#forallkids {
+    color: #f5f5dc;
+    background-color:  #a52a2a;
+    height: 45px;
+    line-height: 54px;
+    padding-left: 30px;
+    margin-top: -25px;
+    font-family: 'Kalam', cursive;
+}
+/*<nav> background color*/
+nav {
+    background-color: #000;
+}
+/*<nav> text color, position, and style*/
+nav p {
+    color: white;
+    margin: -30px 0 0 120px;
+    font-family: 'Shadows Into Light', cursive;
+}
+/*<footer> background color and position*/
+footer {
+    background-color: #000;
+    color: #f5f5dc;
+    height: 25px;
+    padding-left: 30px;
+    line-height: 26px;
+}
+/*Width of the main image = same width as the webpage*/
+#crossing {
+    width: 1500px;
+}
+/*Position smaller image -> see top left of webpage*/
+#logo {
+    margin: 0 0 0 30px;
+}
+/* Nav Bar */
+#nav {
+    list-style-type: none;
+    margin: -18px 0 0 200px;
+    padding: 0 0 0 0;
+    height: 27px;
+}
+#nav li {
+    margin-left: 7%;
+    float: left;
+    text-align: right;
+}
+#nav li a {
+    display: block;
+    padding: .05em 5px;
+    text-decoration: none;
+    color: #F2F2F2;
+    border-radius: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Thought 1 bubble */
+    /* Thought 1 bubble */
+        /* Thought 1 bubble */
+            /* Thought 1 bubble */
+                /* Thought 1 bubble */
+                    /* Thought 1 bubble */
+                        /* Thought 1 bubble */
+
+                            .thought1 {
+                                border: #000;
+                                position:absolute;
+                                width:270px;
+                                padding:50px 40px;
+                                text-align:center;
+                                color:#000;
+                                -moz-border-radius:140px / 120px;
+                                border-radius:140px / 120px;
+                                border:  #a9a9a9 solid 2px;
+                                margin: 170px 0 0 240px;
+                                font-family: 'Gloria Hallelujah', cursive;
+                            }
+                            .thought1 p {font-size:1.25em;}
+                            /* creates the larger circle */
+                            .thought1:before {
+                                content:"";
+                                position:absolute;
+                                bottom:-40px;
+                                left:125px;
+                                width:30px;
+                                height:30px;
+                                -moz-border-radius:30px;
+                                border-radius:30px;
+                                border:  #a9a9a9 solid 2px;
+                            }
+                            /* creates the smaller circle */
+                            .thought1:after {
+                                content:"";
+                                position:absolute;
+                                bottom:-55px;
+                                left:100px;
+                                width:15px;
+                                height:15px;
+                                -moz-border-radius:15px;
+                                border-radius:15px;
+                                border:  #a9a9a9 solid 2px;
+                            }
+
+/* Thought 2 Bubble */
+    /* Thought 2 Bubble */
+        /* Thought 2 Bubble */
+            /* Thought 2 Bubble */
+                /* Thought 2 Bubble */
+                    /* Thought 2 Bubble */
+                        /* Thought 2 Bubble */
+
+                            .thought2 {
+                                border: #000;
+                                position:absolute;
+                                width:270px;
+                                padding:50px 40px;
+                                text-align:center;
+                                color:#000;
+                                -moz-border-radius:190px / 120px;
+                                border-radius:190px / 120px;
+                                border:  #a9a9a9 solid 2px;
+                                margin: 20px 0 0 960px;
+                                font-family: 'Gloria Hallelujah', cursive;
+                            }
+                            .thought2 p {font-size:1.25em;}
+                            /* creates the larger circle */
+                            .thought2:before {
+                                content:"";
+                                position:absolute;
+                                bottom:-30px;
+                                left:50px;
+                                width:30px;
+                                height:30px;
+                                -moz-border-radius:30px;
+                                border-radius:30px;
+                                border:  #a9a9a9 solid 2px;
+                            }
+                            /* creates the smaller circle */
+                            .thought2:after {
+                                content:"";
+                                position:absolute;
+                                bottom:-35px;
+                                left:30px;
+                                width:15px;
+                                height:15px;
+                                -moz-border-radius:15px;
+                                border-radius:15px;
+                                border:  #a9a9a9 solid 2px;
+                            }
+
+/* Thought 3 Bubble */
+    /* Thought 3 Bubble */
+        /* Thought 3 Bubble */
+            /* Thought 3 Bubble */
+                /* Thought 3 Bubble */
+                    /* Thought 3 Bubble */
+                        /* Thought 3 Bubble */
+
+                            .thought3 {
+                            border: #000;
+                            position:absolute;
+                            width:270px;
+                            padding:50px 40px;
+                            text-align:center;
+                            color:#000;
+                            -moz-border-radius:205px / 120px;
+                            border-radius:205px / 120px;
+                            border:  #a9a9a9 solid 2px;
+                            margin: -940px 0 0 1200px;
+                            font-family: 'Gloria Hallelujah', cursive;
+                            }
+                            .thought3 p {font-size:1.25em;}
+                            /*Creates the larger circle*/
+                            .thought3:before {
+                            content:"";
+                            position:absolute;
+                            bottom:-35px;
+                            left:50px;
+                            width:30px;
+                            height:30px;
+                            -moz-border-radius:30px;
+                            border-radius:30px;
+                            border:  #a9a9a9 solid 2px;
+                            }
+                            /*Creates the smaller circle*/
+                            .thought3:after {
+                            content:"";
+                            position:absolute;
+                            bottom:-45px;
+                            left:30px;
+                            width:15px;
+                            height:15px;
+                            -moz-border-radius:15px;
+                            border-radius:15px;
+                            border:  #a9a9a9 solid 2px;
+                            }
+
+/* Three Columns */
+    /* Three Columns */
+        /* Three Columns */
+            /* Three Columns */
+                /* Three Columns */
+                    /* Three Columns */
+                        /* Three Columns */
+
+                            * {
+                                box-sizing: border-box;
+                            }
+                            .row{
+                                font-family: 'Roboto Condensed', sans-serif;
+                            }
+                            /*Create three equal columns that floats next to each other*/
+                            .column {
+                                float: left;
+                                width: 33.33%;
+                                padding: 0 10px 0 10px;
+                                height: 225px; 
+                                margin-top: 10px;
+                                margin-bottom: -5px;
+                            }
+                            /*Clear floats after the columns*/
+                            .row:after {
+                                content: "";
+                                display: table;
+                                clear: both;
+                            }
+    
+    /*Column Adjustments*/
+    #left p{
+        text-indent: 50px;
+        margin-left: 50px;
+        margin-right: 5px;
+    }
+    #right p{
+        text-indent: 50px;
+        margin-right: 50px;
+        margin-left: 5px;
+    }
+    #left {
+        border-right:  #a52a2a double;
+    }
+    #right {
+        border-left:  #a52a2a double;
+    }
+    #qui {
+        text-indent: 50px;
+    }
+
+  
